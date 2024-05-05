@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', 'sans-serif';
     margin: 0;
-    background-color: #E5E5E5;
+    background-color: #fff;
     font-size: 16px;
 }
 
@@ -21,3 +21,42 @@ h1, h2, h3, h4 {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+/* header */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #263238;
+    margin-right: 35px;
+}
+
+.nav a:hover {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #263238;
+    transition: 0.1s;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+    border: 2px solid #263238;
+    padding: 20px 55px;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: #263238;
+    color: #fff;
+    transition: 0.2s;
+}
+
