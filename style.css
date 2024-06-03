@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #fff;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 *,
@@ -28,7 +29,7 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px;
+    padding: 70px 0;
 }
 
 .nav a {
@@ -61,3 +62,58 @@ h1, h2, h3, h4 {
     transition: 0.2s;
 }
 
+
+/* main */
+.main {
+    margin-top: 80px;
+}
+
+.learn {
+    margin-bottom: 120px;
+}
+
+.learn__title {
+    font-size: 65px;
+    width: 400px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.learn__subtitle {
+    font-size: 24px;
+    color: #8F95A5;
+    width: 550px;
+}
+
+.learn__button {
+    font-size: 36px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #263238;
+    padding: 40px 120px;
+    border-radius: 15px;
+}
+
+.learn__img {
+    position: absolute;
+    top: 300px;
+    right: 590px;
+}
+
+.bulb {
+    position: absolute;
+    top: 90px;
+    right: 800px;
+}
+
+
+/* skills */
+.skills {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.skills__title {
+    font-weight: 600;
+    font-size: 48px;
+}
