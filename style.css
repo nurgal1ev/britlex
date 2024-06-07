@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: #fff;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 *,
@@ -83,6 +83,7 @@ h1, h2, h3, h4 {
     font-size: 24px;
     color: #8F95A5;
     width: 550px;
+    line-height: 1.7;
 }
 
 .learn__button {
@@ -108,13 +109,13 @@ h1, h2, h3, h4 {
 
 
 /* skills */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .skills {
     margin-top: 180px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
 }
 
 .speaking__img {
@@ -125,6 +126,7 @@ h1, h2, h3, h4 {
     text-align: center;
     font-weight: 600;
     font-size: 48px;
+    margin-bottom: 120px;
 }
 
 .speaking {
@@ -135,7 +137,9 @@ h1, h2, h3, h4 {
     height: 894px;
     background-color: #F5F5F5;
     border-radius: 10px;
+    margin-right: 18px;
 }
+
 
 .speaking__title {
     text-align: left;
@@ -160,6 +164,13 @@ h1, h2, h3, h4 {
     border-radius: 5px;
 }
 
+
+/* writing */
+.writing__text {
+    position: relative;
+    top: -25px;
+}
+
 .writing__title {
     text-align: left;
     font-size: 30px;
@@ -170,18 +181,54 @@ h1, h2, h3, h4 {
     text-align: left;
     font-size: 16px;
     color: #8F95A5;
+    width: 354px;
 }
 
 .writing {
     display: inline-block;
     align-items: center;
-    padding: 15px 65px 25px 40px;
+    padding: 0px 65px 25px 40px;
+    width: 434px;
+    height: 531px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+
+.writing__img {
+    display: inline;
+}
+
+
+/* reading */
+.reading__text {
+    position: relative;
+    bottom: -20px;
+}
+
+.reading__title {
+    text-align: left;
+    font-size: 30px;
+    color: #263238;
+}
+
+.reading__subtitle {
+    text-align: left;
+    font-size: 16px;
+    color: #8F95A5;
+    width: 354px;
+}
+
+.reading {
+    display: inline-block;
+    align-items: center;
+    padding: 0px 65px 25px 40px;
     width: 434px;
     height: 531px;
     background-color: #F5F5F5;
     border-radius: 10px;
 }
 
-.writing__img {
+.reading__img {
     display: inline;
 }
