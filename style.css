@@ -68,8 +68,9 @@ h1, h2, h3, h4 {
     margin-top: 80px;
 }
 
-.learn {
-    margin-bottom: 120px;
+.main__block {
+    display: flex;
+    flex-direction: space-be;
 }
 
 .learn__title {
@@ -84,6 +85,7 @@ h1, h2, h3, h4 {
     color: #8F95A5;
     width: 550px;
     line-height: 1.7;
+    margin-bottom: 120px;
 }
 
 .learn__button {
@@ -96,9 +98,9 @@ h1, h2, h3, h4 {
 }
 
 .learn__img {
-    position: absolute;
-    top: 300px;
-    right: 590px;
+    position: relative;
+    top: -45px;
+    left: -120px;
 }
 
 .bulb {
