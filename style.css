@@ -16,6 +16,11 @@ h1, h2, h3, h4, p {
      margin: 0;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 .container {
     width: 100%;
     max-width: 1380px;
@@ -147,12 +152,14 @@ h1, h2, h3, h4, p {
     text-align: left;
     font-size: 30px;
     color: #263238;
+    font-weight: 600;
 }
 
 .speaking__subtitle {
     text-align: left;
     font-size: 16px;
     color: #8F95A5;
+    margin: 40px 0;
 }
 
 .skills__button {
@@ -177,6 +184,7 @@ h1, h2, h3, h4, p {
     text-align: left;
     font-size: 30px;
     color: #263238;
+    font-weight: 600;
 }
 
 .writing__subtitle {
@@ -184,6 +192,7 @@ h1, h2, h3, h4, p {
     font-size: 16px;
     color: #8F95A5;
     width: 354px;
+    margin: 30px 0;
 }
 
 .writing {
@@ -212,6 +221,7 @@ h1, h2, h3, h4, p {
     text-align: left;
     font-size: 30px;
     color: #263238;
+    font-weight: 600;
 }
 
 .reading__subtitle {
@@ -219,6 +229,7 @@ h1, h2, h3, h4, p {
     font-size: 16px;
     color: #8F95A5;
     width: 354px;
+    margin: 30px 0;
 }
 
 .reading {
@@ -246,6 +257,7 @@ h1, h2, h3, h4, p {
     text-align: left;
     font-size: 30px;
     color: #263238;
+    font-weight: 600;
 }
 
 .listening__subtitle {
@@ -253,6 +265,7 @@ h1, h2, h3, h4, p {
     font-size: 16px;
     color: #8F95A5;
     width: 354px;
+    margin: 30px 0;
 }
 
 .listening {
@@ -354,6 +367,7 @@ h1, h2, h3, h4, p {
     color: #263238;
     margin-bottom: 20px;
     margin-top: 70px;
+    font-weight: 600;
 }
 
 .pricing__subtitle {
@@ -389,4 +403,85 @@ h1, h2, h3, h4, p {
 .text {
     font-size: 18px;
     color: #546269;
+}
+
+
+/* contact */
+.contact__us {
+    margin-top: 320px;
+}
+
+.contact__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__text {
+    width: 749px;
+}
+
+.contact__title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.contact__subtitle {
+    width: 756px;
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+.contact {
+    display: inline-block;
+    font-size: 16px;
+    color: #8F95A5;
+    padding: 30px 240px 30px 33px;
+    border-radius: 10px;
+    border: 1px solid #8F95A5;
+    margin-right: 12px;
+}
+
+.contact__btn {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 27px 82px;
+    background-color: #263238;
+    border-radius: 10px;
+}
+
+.contact__btns {
+    margin-top: 55px;
+    display: flex;
+}
+
+.contact__img {
+    margin-right: 110px;
+}
+
+
+/* contact */
+.footer {
+    margin-top: 133px;
+}
+
+.footer__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    border-top: 1px solid #8F95A5;
+    padding-top: 50px;
+}
+
+.policy {
+
+}
+
+.policy__link {
+    font-size: 24px;
+    color: #8F95A5;
+    text-decoration: none;
 }
